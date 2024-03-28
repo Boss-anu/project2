@@ -14,6 +14,25 @@
         git push origin main  (to push the code)
         git push -u origin main (to tell origin once not always) now simply write git push
         git commit -am "added final notes"
+
+
+        CASE 1: (to remove recently added part in staging)
+        git reset -file_name-
+        git reset
+
+        CASE 2: (to reset commited changes for (one) commit)
+        git reset HEAD~1
+
+        CASE 3: (commited changes for many commits)
+        git log (to find hash of the version of which we wish to go)
+        git reset -HASH-
+        
+        (for changes which are in front of us)
+        git reset --hard -HASH-
+
+
+
+
     </p>
 </head>
 <body>
